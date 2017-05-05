@@ -7,6 +7,7 @@ This simple Python and Ruby scripts will take the question, ask the WolframAlpha
 * Install the libraries
 
 `$ pip install boto3 wolframalpha`
+
 `$ gem install aws-sdk wolfram-alpha`
 
 * Install [sox](http://sox.sourceforge.net)
@@ -16,4 +17,5 @@ This simple Python and Ruby scripts will take the question, ask the WolframAlpha
 ### Usage
 
 `$ python wolframsynth.py "What's the tallest building in the world?"`
+
 `$ ruby wolframsynth.rb "What's the tallest building in the world?"`

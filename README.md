@@ -1,12 +1,13 @@
 ## Question Answering using WolframAlpha + Amazon Polly
 
-This simple Python script will take the question, ask the WolframAlpha and synthesize the audio using Amazon Polly
+This simple Python and Ruby scripts will take the question, ask the WolframAlpha and synthesize the audio using Amazon Polly
 
 ### Installation
 
-* Install the python libraries
+* Install the libraries
 
 `$ pip install boto3 wolframalpha`
+`$ gem install aws-sdk wolfram-alpha`
 
 * Install [sox](http://sox.sourceforge.net)
 
@@ -15,3 +16,4 @@ This simple Python script will take the question, ask the WolframAlpha and synth
 ### Usage
 
 `$ python wolframsynth.py "What's the tallest building in the world?"`
+`$ ruby wolframsynth.rb "What's the tallest building in the world?"`
